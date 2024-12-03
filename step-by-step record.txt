@@ -1,0 +1,23 @@
+step-by-step:
+
+client-side (create folder client)
+1. install react.js vite and tailwind css (template)
+
+2. create pages and routes: 
+	install react router dom package: create routes inside application
+	create folder pages and create files
+
+3. create header section
+	create component folder
+	have 3 section in header (logo, search, menu)
+	install react icons package
+	very easy to adjust responsiveness in tailwind (set mobile first, then after mobile do this)
+	import link to bring user from one to another page without refreshing the page
+
+
+server-side (create folder api)
+4. create and run the server
+	initialize a package json, in the root of project, not in the api folder
+	create file index.js
+	install express
+	install nodemon (for auto refresh application everytime i save the file)
