@@ -11,8 +11,8 @@ client-side (create folder client)
 	create component folder
 	have 3 section in header (logo, search, menu)
 	install react icons package
-	very easy to adjust responsiveness in tailwind (set mobile first, then after mobile do this)
-	import link to bring user from one to another page without refreshing the page
+	very easy to adjust responsiveness in tailwind (set mobile first, then after mobile do larger screen)
+	import Link to bring user from one to another page without refreshing the page
 
 
 server-side (create folder api)
@@ -21,3 +21,7 @@ server-side (create folder api)
 	create file index.js
 	install express
 	install nodemon (for auto refresh application everytime i save the file)
+	run 'npm run dev' to test the application
+
+5. connect to database
+	
