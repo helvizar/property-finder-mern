@@ -1,9 +1,17 @@
 import express from "express";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-mongoose.connect(
-	"mongodb+srv://helvizar:helvizar@property-finder-mern.fura2.mongodb.net/?retryWrites=true&w=majority&appName=property-finder-mern"
-);
+dotenv.config();
+
+mongoose
+	.connect(process.env.MONGO)
+	.then(() => {
+		console.log("Connected to DB");
+	})
+	.catch((err) => {
+		console.log(err);
+	});
 
 const app = express();
 

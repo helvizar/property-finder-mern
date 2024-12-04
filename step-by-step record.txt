@@ -24,4 +24,9 @@ server-side (create folder api)
 	run 'npm run dev' to test the application
 
 5. connect to database
+	install package mongoose (back end always in the root project)
+	create database on mongodb.com, choose the "free" plan, don't forget to set username, password, ip address.
+	click connect and copy paste the uri
+	install package dotenv to hide important variables, such as password.
+	add feedback to know if already connected or not, such as console.log("connected to db")
 	
