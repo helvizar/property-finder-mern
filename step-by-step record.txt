@@ -28,5 +28,9 @@ server-side (create folder api)
 	create database on mongodb.com, choose the "free" plan, don't forget to set username, password, ip address.
 	click connect and copy paste the uri
 	install package dotenv to hide important variables, such as password.
-	add feedback to know if already connected or not, such as console.log("connected to db")
+	add feedback to know if already connected or not, using "then" such as console.log("connected to db"), if error using "catch"
 	
+6. create user model
+  create folder models
+  create file.models.js
+  add 3 models: username, email, password
