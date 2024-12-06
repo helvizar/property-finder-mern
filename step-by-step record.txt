@@ -31,8 +31,12 @@ server-side (create folder api)
 	add feedback to know if already connected or not, using "then" such as console.log("connected to db"), if error using "catch"
 	
 6. create user model
-  create folder models
-  create file.models.js
-  add 3 models: username, email, password
+  	create folder models
+  	create file.models.js
+  	add 3 models: username, email, password
+	add timestamps
 
 7. create a test api route
+	create seperate folder for api routes called "routes"
+	create file user.route.js 
+	create folder controllers for the logics and functions to be call in another files, such as route
