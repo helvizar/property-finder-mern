@@ -34,3 +34,5 @@ server-side (create folder api)
   create folder models
   create file.models.js
   add 3 models: username, email, password
+
+7. create a test api route
