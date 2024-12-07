@@ -46,3 +46,7 @@ server-side (create folder api)
   create file auth.controller.js
   test api using postman
   install package bcrypt
+
+9. create a middleware and a function to handle possible errors
+ make  in index.js so "try and catch" code not repetitive
+ handle errors: create folder "utils" in "api" folder and create file "error.js"

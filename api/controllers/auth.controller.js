@@ -1,7 +1,7 @@
 import User from "../models/user.model.js";
 import bcryptjs from "bcrypt";
 
-export const signup = async (req, res) => {
+export const signup = async (req, res, next) => {
 	//destructure
 	const { username, email, password } = req.body;
 
@@ -15,7 +15,7 @@ export const signup = async (req, res) => {
 		//create a respond
 		res.status(201).json("user created successfully.");
 	} catch (error) {
-		res.status(500).json(error.message);
+		next(error);
 	}
 	//prevent error using "await" so the code stay in this line until it finished
 };
